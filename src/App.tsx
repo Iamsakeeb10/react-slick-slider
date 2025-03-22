@@ -1,7 +1,11 @@
-import SliderComponent from "./components/SliderComponent";
+import PostList from "./components/PostList";
 
-const App = () => {
-  return <SliderComponent />;
-};
+function App() {
+  return (
+    <>
+      <PostList />
+    </>
+  );
+}
 
 export default App;
